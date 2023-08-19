@@ -19,7 +19,7 @@
 				height: 100%;
 				background-image: url('omkar_candid.JPG'); /* Replace with the actual path to your image */
 				background-size: cover;
-				background-position: center;				
+				background-position: Center;			
 				z-index: -1; /* Place the background behind other content */
 				margin-top: 50px; /* Adjust this value to match the height of your navigation bar */
         }
@@ -73,18 +73,23 @@
         padding-top: 700px; /* Adjust this value to create space below the navigation bar */
 		background: rgba(255, 255, 255, 0.2); /* Set a semi-transparent white background */
         backdrop-filter: blur(10px); /* Apply blur effect */
-        padding: 100px 0; /* Add vertical padding for spacing */
+        padding: 100px 0;  /*Add vertical padding for spacing */
         text-align: center; /* Center-align the content */
     }
 	
-	 #Name {
+	#Name {
         
         color: white; /* Text color */
         padding: 200px 0; /* Add vertical padding for spacing */        
         font-family: Times New Roman, sans-serif; /* Replace with the appropriate font */
     }
 	
-
+	#Name img {
+        width: 35px; /* Adjust the width as needed */
+        height: 30px; /* Adjust the height to maintain the aspect ratio */
+        margin-right:10px;
+        
+    }
 
     .content {
         padding: 20px;
@@ -97,6 +102,13 @@
 	.Desgnation{
 	  font-size: 20px; /* Adjust the font size as needed */
 	}
+	/*.contentIntro {	
+		font-size: 20px; /* Adjust the font size as needed */
+		text-align: left; /* Center-align the content */
+		padding-left: 10px; /* Add vertical padding for spacing */
+		
+		
+    }*/
 		
     </style>
 </head>
@@ -114,13 +126,18 @@
     <section id="background-image"></section>
 	<section id="Name">		
          <div class="namecontent">
-            <p>Omkar Madhav<br>Jadhav<br><text class="Desgnation">Senior Software Engineer</text></p>
+            <p>Omkar Madhav<br>Jadhav<br><text class="Desgnation">Senior Software Engineer</text>
+			<br><a href="https://www.linkedin.com/in/omkar-jadhav-480326132/"><img src="LI-In-Bug.PNG" alt="LinkedIn Profile"></a>
+			<a href="https://www.hackerrank.com/ResoluteRetro?hr_r=1"><img src="HRanklogo.SVG" alt="HackerRank Profile"></a>
+			<a href="https://github.com/Omkar118"><img src="GitHub-Logo.PNG" alt="GitHub Profile" class="github-logo"></a></p>
 			
         </div>
     </section>
     <section id="introduction">		
 		<div class="content">
 			About Me Section Coming Soon....
+			<p></p>
+
 		</div>
 	</section>
     <section id="experience">
